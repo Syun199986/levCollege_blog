@@ -22,6 +22,7 @@
 		<p class="edit">
 			[<a href="/posts/{{ $post->id }}/edit">edit</a>]
 		</p>
+		<a href="/categories/{{ $post->category->id }}">{{ $post->category->name }}</a>
 		<div class="back">
 			[<a href="/">back</a>]
 		</div>
